@@ -1,0 +1,13 @@
+import * as S from './styles'
+
+type Props = {
+  classComponent?: string
+}
+
+const {{pascalCase name}} = ({ classComponent }: Props) => (
+  <S.Wrapper className={`{{kebabCase name}} ${classComponent ? classComponent : ''}`}>
+    <h1>{{pascalCase name}}</h1>
+  </S.Wrapper>
+)
+
+export default {{pascalCase name}}
