@@ -12,7 +12,7 @@ type Props = {
 const Layout = ({ classComponent, children }: Props) => (
   <S.Wrapper className={`layout ${classComponent ? classComponent : ''}`}>
     <Header />
-    {children}
+    <main>{children}</main>
     <Footer />
   </S.Wrapper>
 )

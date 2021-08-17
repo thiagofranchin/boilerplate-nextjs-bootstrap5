@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <>
       <S.Wrapper>
-        <h1>Footer</h1>
+        <hr />
+        <p>Footer</p>
+        <p>src/components/Footer/index.tsx</p>
       </S.Wrapper>
     </>
   )

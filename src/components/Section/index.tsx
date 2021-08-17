@@ -11,7 +11,7 @@ type Props = {
 const Section = ({ bgColor, children, isFluid, classContainer }: Props) => (
   <S.Section className={`${bgColor && `bg-${bgColor}`}`}>
     <div
-      className={`container${isFluid ? '-fluid' : ''}${
+      className={`container${isFluid ? '-fluid' : ''} ${
         classContainer ? ` ${classContainer}` : ''
       }`}
     >

@@ -2,7 +2,9 @@ import * as S from './styles'
 
 const Header = () => (
   <S.Wrapper>
-    <h1>Header</h1>
+    <p>Header</p>
+    <p>src/components/Header/index.tsx</p>
+    <hr />
   </S.Wrapper>
 )
 
