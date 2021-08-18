@@ -6,15 +6,14 @@ import Footer from '../Footer'
 
 type Props = {
   children?: ReactNode
-  classComponent?: string
 }
 
-const Layout = ({ classComponent, children }: Props) => (
-  <S.Wrapper className={`layout ${classComponent ? classComponent : ''}`}>
+const Layout = ({ children }: Props) => (
+  <>
     <Header />
-    <main>{children}</main>
+    <S.Wrapper>{children}</S.Wrapper>
     <Footer />
-  </S.Wrapper>
+  </>
 )
 
 export default Layout

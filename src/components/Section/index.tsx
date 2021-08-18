@@ -6,10 +6,17 @@ type Props = {
   children: ReactNode
   isFluid?: boolean
   classContainer?: string
+  classSection?: string
 }
 
-const Section = ({ bgColor, children, isFluid, classContainer }: Props) => (
-  <S.Section className={`${bgColor && `bg-${bgColor}`}`}>
+const Section = ({
+  bgColor,
+  children,
+  isFluid,
+  classContainer,
+  classSection
+}: Props) => (
+  <S.Section className={`${bgColor && `bg-${bgColor}`} ${classSection}`}>
     <div
       className={`container${isFluid ? '-fluid' : ''} ${
         classContainer ? ` ${classContainer}` : ''

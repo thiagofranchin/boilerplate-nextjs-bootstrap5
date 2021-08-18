@@ -1,10 +1,14 @@
 import * as S from './styles'
 
 const Header = () => (
-  <S.Wrapper>
-    <p>Header</p>
-    <p>src/components/Header/index.tsx</p>
-    <hr />
+  <S.Wrapper className="bg-secondary text-white py-5">
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <h1>Header</h1>
+        </div>
+      </div>
+    </div>
   </S.Wrapper>
 )
 
