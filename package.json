@@ -22,21 +22,16 @@
     ]
   },
   "dependencies": {
-    "@styled-icons/bootstrap": "^10.23.0",
-    "@styled-icons/boxicons-logos": "^10.18.0",
-    "@styled-icons/boxicons-regular": "^10.18.0",
     "@styled-icons/boxicons-solid": "^10.23.0",
-    "@styled-icons/fa-solid": "^10.22.0",
-    "@styled-icons/material-rounded": "^10.23.0",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^5.1.0",
-    "next": "10.0.2",
+    "next": "10.2.3",
     "next-pwa": "^3.1.5",
     "nextjs-progressbar": "^0.0.8",
     "node-sass": "4.14.1",
-    "react": "17.0.1",
+    "react": "17.0.2",
     "react-compare-slider": "^2.0.2",
-    "react-dom": "17.0.1",
+    "react-dom": "17.0.2",
     "styled-components": "5.2.1"
   },
   "devDependencies": {
