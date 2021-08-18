@@ -3,7 +3,10 @@ import Header from '.'
 
 export default {
   title: 'Header',
-  component: Header
+  component: Header,
+  parameters: {
+    options: { showPanel: false }
+  }
 } as Meta
 
 export const Default: Story = (args) => <Header {...args} />
